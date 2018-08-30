@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar>
+        <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Commands</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    
+    <ion-list>
+      <ion-list-header class=header_bg_color>99 Commands from ALLAH(SWT)</ion-list-header>
+        <button ion-item *ngFor="let item of Commands" class="list_text_color">
+           <ion-icon name='star'></ion-icon>
+           {{item.commandName.name}}
+        </button>
+    </ion-list>
+</ion-content>
