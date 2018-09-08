@@ -19,7 +19,7 @@
     <preference name="SplashShowOnlyFirstTime" value="false" />
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
-    <preference name="AIzaSyAUVAm1MPMFqiJKq1VuqrlwJZOI2yW23MU" value="YouTube Data API v3" />
+    <preference name="REPLCE_WITH_YOUR_API_KEY" value="YouTube Data API v3" />
     <platform name="android">
         <allow-intent href="market:*" />
         <icon density="ldpi" src="resources/android/icon/qabar.png" />
