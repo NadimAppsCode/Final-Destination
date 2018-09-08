@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController} from 'ionic-angular';
 
 
 @IonicPage()
@@ -121,15 +121,19 @@ export class CommandsPage {
   {
     commandName: {name:  'Order Righteousness to people only after practicing it yourself(2:44)'}
   },
+  {
+    commandName: {name:  'Order Righteousness to people only after practicing it yourself(2:44)'}
+  }
          
 
 ];
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  constructor(public navCtrl: NavController) {
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad CommandsPage');
+    
   }
 
 }

@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 import { QabrQuestionsPage } from '../pages/qabr-questions/qabr-questions';
 import { TabsPage } from '../pages/tabs/tabs';
 import { CommandsPage } from '../pages/commands/commands';
+import { VideosPage } from '../pages/videos/videos';
 
 @Component({
   templateUrl: 'app.html'
@@ -31,6 +32,7 @@ export class MyApp {
       { title: 'Qabr(Azaab)', component: ListPage },
       { title: 'Rooh(Soul)', component: ListPage },
       { title: 'Tauba', component: ListPage },
+      { title: 'Videos', component: VideosPage },
       { title: 'Jannah(Hoor)', component: ListPage }
       
 

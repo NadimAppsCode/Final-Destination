@@ -5,12 +5,13 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
-
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { QabrQuestionsPage } from '../pages/qabr-questions/qabr-questions';
 import { TabsPage } from '../pages/tabs/tabs';
 import { CommandsPage } from '../pages/commands/commands';
+import { VideosPage } from '../pages/videos/videos';
+import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { CommandsPage } from '../pages/commands/commands';
     ListPage,
     QabrQuestionsPage,
     TabsPage,
-    CommandsPage
+    CommandsPage,
+    VideosPage
   ],
   imports: [
     BrowserModule,
@@ -32,10 +34,12 @@ import { CommandsPage } from '../pages/commands/commands';
     ListPage,
     QabrQuestionsPage,
     TabsPage,
-    CommandsPage
+    CommandsPage,
+    VideosPage
   ],
   providers: [
     StatusBar,
+    YoutubeVideoPlayer,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
