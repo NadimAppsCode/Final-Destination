@@ -5,4 +5,11 @@ page-videos {
         height: 200px;
         
     }
+    ion-card-header {
+        background-color: green;
+    }
+    ion-list ion-item ion-label {
+        color: blue($color: #000000);
+    }
+
 }

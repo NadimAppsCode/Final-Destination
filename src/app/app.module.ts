@@ -12,6 +12,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { CommandsPage } from '../pages/commands/commands';
 import { VideosPage } from '../pages/videos/videos';
 import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     IonicModule.forRoot(MyApp),
   ],
   bootstrap: [IonicApp],
@@ -40,6 +42,7 @@ import { YoutubeVideoPlayer } from '@ionic-native/youtube-video-player';
   providers: [
     StatusBar,
     YoutubeVideoPlayer,
+
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]

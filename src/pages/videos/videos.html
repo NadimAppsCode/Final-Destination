@@ -1,26 +1,37 @@
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>videos</ion-title>
+  <ion-navbar color="danger">
+      <button ion-button menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+    <ion-title>Bayaan-videos</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content>
-   
-  <ion-card>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Language:</ion-label>
+      <ion-select placeholder="Select One" [(ngModel)]="language" (ionChange)="onChange()">
+        <ion-option value="U">Urdu</ion-option>
+        <ion-option value="E">English</ion-option>
+      </ion-select>
+    </ion-item>
+  
+  </ion-list>
+
+  
+  <ion-card *ngFor="let item of videoArray">
     <ion-card-header>
-      Do not be arrogant
+     {{item.header}}     
     </ion-card-header>
     <ion-card-content>
-      This is one of the 99 Commands of ALLAH(SWT)
-      <img src="./assets/imgs/zabaan.png" (click)="playVideo()"/>
-      <!--video controls="controls" preload="metadata" autoplay="autoplay" webkit-playsinline="webkit-playsinline" class="videoPlayer" (click)="playVideo()">
-     
-      </video-->
+      {{item.content}}
+      <img src={{item.imgSrc}} (click)="playVideo(item.videoId)"/>
     </ion-card-content>
   </ion-card>
-     
 
 </ion-content>

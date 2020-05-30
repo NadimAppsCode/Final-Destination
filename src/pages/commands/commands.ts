@@ -122,8 +122,157 @@ export class CommandsPage {
     commandName: {name:  'Order Righteousness to people only after practicing it yourself(2:44)'}
   },
   {
-    commandName: {name:  'Order Righteousness to people only after practicing it yourself(2:44)'}
-  }
+    commandName: {name:  'Do not commit abuse on the Earth(2:60)'}
+  },
+  {
+    commandName: {name:  'Do not prevent people from Mosque(2:114)'}
+  },
+  {
+    commandName: {name:  'Fight only with those who fight you(2:190)'}
+  },
+  {
+    commandName: {name:  'Keep the Etiquettes of War(2:191)'}
+  },
+  {
+    commandName: {name:  'Do not turn back in Battle(8:15)'}
+  },
+  {
+    commandName: {name:  'No Compulsion in Religion(2:256)'}
+  },
+  {
+    commandName: {name:  'Believe in All PROPHETS(2:285)'}
+  },
+  {
+    commandName: {name:  'Do not have sexual intercourse during Menstrual Period(2:222)'}
+  },
+  {
+    commandName: {name:  'Breast Feed Your Children for two complete years(2:233)'}
+  },
+  {
+    commandName: {name:  'Do not even approach Unlawful Sexual intercourse(17:32)'}
+  },
+  {
+    commandName: {name:  'Choose Rulers by their Merit(2:247)'}
+  },
+  {
+    commandName: {name:  'Do not burden a person beyond his scope(2:286)'}
+  },
+  {
+    commandName: {name:  'Do not become divided(3:103)'}
+  },
+  {
+    commandName: {name:  'Think deeply about the wonders and Creation of this Universe(3:191)'}
+  },
+  {
+    commandName: {name:  'Men and Women have equal Rewards for their deeds(3:195)'}
+  },
+  {
+    commandName: {name:  'Do not marry those in your Blood Relation(4:23)'}
+  },
+  {
+    commandName: {name:  'Family Should be Led by Men(4:34)'}
+  },
+  {
+    commandName: {name:  'Do not be Miserly(Stingy)'}
+  },
+  {
+    commandName: {name:  'Do not Keep Envy(4:54)'}
+  },
+  {
+    commandName: {name:  'Do not Kill each Other(4:92)'}
+  },
+  {
+    commandName: {name:  'Do not be an Advocate for Deceit(4:105)'}
+  },
+  {
+    commandName: {name:  'Do not Cooperate in Sin and Aggression(5:2)'}
+  },
+  {
+    commandName: {name:  'Cooperate in Righteousness(5:2)'}
+  },
+  {
+    commandName: {name:  'Having majority is not a criterion of Truth(6:116)'}
+  },
+  {
+    commandName: {name:  'Be Just(5:8)'}
+  },
+  {
+    commandName: {name:  'Punish for Crime in an exemplary….***fill it(5:38)'}
+  },
+  {
+    commandName: {name:  'Strive against sinful and unlawful acts(5:63)'}
+  },
+  {
+    commandName: {name:  'Dead Animals, Blood, The Flesh of Swine are prohibited(5:3)'}
+  },
+  {
+    commandName: {name:  'Avoid intoxicants and Alcohol(5:90)'}
+  },
+  {
+    commandName: {name:  'Do not Gamble(5:90)'}
+  },
+  {
+    commandName: {name:  'Do not insult others Deities(6:108)'}
+  },
+  {
+    commandName: {name:  'Do not reduce weight or measure to cheat people(6:152)'}
+  },
+  {
+    commandName: {name:  'Eat and drink, But be not Excessive(7:31)'}
+  },
+  {
+    commandName: {name:  'Wear Good Clothes during prayer times(7:31)'}
+  },
+  {
+    commandName: {name:  'Protect and help those who seek protection(9:6)'}
+  },
+  {
+    commandName: {name:  'Keep Purity(9:108)'}
+  },
+  {
+    commandName: {name:  'Never give up hope of Allahs Mercy(12:87)'}
+  },
+  {
+    commandName: {name:  'Allah will forgive those who have gone wrong out of ignorance(16:119)'}
+  },
+  {
+    commandName: {name:  'Invitation To God should be with Wisdom and Good Instruction(16:125)'}
+  },
+  {
+    commandName: {name:  'No One Will Bear Other Sins(17:15)'}
+  },
+  {
+    commandName: {name:  'Do not Kill Your Children for fear of Poverty(17:31)'}
+  },
+  {
+    commandName: {name:  'Do not pursue that of which you have no knowledge(17:36)'}
+  },
+  {
+    commandName: {name:  'Keep Aloof From What is Vain(23:3)'}
+  },
+  {
+    commandName: {name:  'Having majority is not a criterion of Truth(6:116)'}
+  },
+  {
+    commandName: {name:  'Having majority is not a criterion of Truth(6:116)'}
+  },
+  {
+    commandName: {name:  'Having majority is not a criterion of Truth(6:116)'}
+  },
+  {
+    commandName: {name:  'Having majority is not a criterion of Truth(6:116)'}
+  },
+  {
+    commandName: {name:  'Having majority is not a criterion of Truth(6:116)'}
+  },
+  {
+    commandName: {name:  'Having majority is not a criterion of Truth(6:116)'}
+  },
+  {
+    commandName: {name:  'Having majority is not a criterion of Truth(6:116)'}
+  },
+
+
          
 
 ];
