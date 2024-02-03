@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+     <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Shahadat</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Shahadat</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+    <ion-row>
+
+         <ion-textarea autoGrow="true" [readonly]="true" fill="solid" class="child" [(ngModel)]="shahadah_details"></ion-textarea>
+
+    </ion-row>
+
+
+
+  <tr class="blank_row">
+    <td colspan="3"></td>
+  </tr>
+
+
+  <ion-row>
+    <img [src]="'/assets/imgs/Shahadat.jpg'" />
+  </ion-row>
+
+
+
+
+</ion-content>

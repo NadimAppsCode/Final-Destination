@@ -1,0 +1,14 @@
+.blank_row
+{
+    height: 120px !important; /* overwrites any other rules */
+    background-color: #FFFFFF;
+}
+.textarea_border
+{
+   border: solid 2px red;
+}
+.child {
+  font-size: 15px;
+  font-weight: bold;
+  align-content:left
+}

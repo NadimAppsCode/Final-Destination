@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Final Destination</string>
+    <string name="title_activity_main">Final Destination</string>
+    <string name="package_name">app.finalDestination.islam</string>
+    <string name="custom_url_scheme">app.finalDestination.islam</string>
+    <string name="activity_name">app.finalDestination.islam</string>
+</resources>

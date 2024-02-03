@@ -1,0 +1,21 @@
+ion-title {
+    text-transform: capitalize;
+}
+
+ion-list-header {
+    --background: black;
+    color: white;
+    font-size: 20px;
+}
+
+ion-item {
+    --background: black;
+    color: whitesmoke;
+    font-size: 14px;
+
+    ion-icon {
+        font-size: 14px;
+        margin-right: 10px;
+        color: whitesmoke;
+    }
+}

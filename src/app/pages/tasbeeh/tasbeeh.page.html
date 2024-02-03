@@ -1,0 +1,39 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Tasbeeh</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col size="12" >
+        <ion-item>
+          <ion-label class="counter-label">{{ counterLabel }}</ion-label>
+        </ion-item>
+      </ion-col>
+
+    </ion-row>
+    <ion-row class="ion-align-items-center">
+
+      <ion-col size="12" class="ion-text-center">
+        <ion-button (click)='resetCounter()' color="danger" >
+         <ion-icon name="refresh"></ion-icon>
+        </ion-button>
+
+      </ion-col>
+      <ion-col size="12" class="ion-text-center">
+        <ion-button (click)='tasbeehCounter()' shape="circle" color="danger" >
+          <ion-icon slot="icon-only" name="send-sharp" ></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col size="12">
+        <ion-item lines="none" id="projectTitle" >
+          <ion-input name="title" class="text-input" placeholder="Count"></ion-input>
+        </ion-item>
+      </ion-col>
+    </ion-row>
+</ion-grid>
+
+</ion-content>

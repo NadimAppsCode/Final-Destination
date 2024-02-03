@@ -1,0 +1,7 @@
+{
+  "name": "Final Destination",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

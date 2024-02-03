@@ -1,0 +1,114 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Home</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/notifications" routeDirection="forward">
+        <ion-icon name="notifications-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Home</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <!-- <ion-row>
+    <swiper class="banners">
+      <ng-template swiperSlide *ngFor="let banner of banners">
+        <img [src]="banner?.banner" />
+      </ng-template>
+    </swiper>
+  </ion-row> -->
+  <!-- <div id="container">
+    <strong class="capitalize">Preparation For Akhirah</strong>
+    <p class="ion-padding">
+      A man asked the Messenger Prophet Muhammad(ﷺ): "Who is the most wise of people O Messenger of Allah?"
+      He replied: "The one who remembers death most often and the one who is well-prepared to meet it;
+      these are the wise; honorable in this life and dignified in the Hereafter."
+    </p>
+  </div>
+
+
+  <div class="topic">
+    What would you like to do today?
+  </div> -->
+
+
+
+
+  <ion-row>
+    <img [src]="'/assets/imgs/appImage.jpg'" />
+  </ion-row>
+  <div class="topic">
+    Let's do some Dhikr today!
+  </div>
+
+  <!-- <ion-grid>
+    <ion-row>
+
+      <ion-col size="3">
+        <ion-card>
+          <ion-thumbnail>
+            <img [src]="'assets/imgs/maaf-Karna.jpg'" />
+          </ion-thumbnail>
+          <ion-label class="ion-text-wrap ion-text-center">Tasbih</ion-label>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="3">
+        <ion-card>
+          <ion-thumbnail>
+            <img [src]="'/assets/imgs/hoor.jpg'" />
+          </ion-thumbnail>
+          <ion-label class="ion-text-wrap ion-text-center">Shahadah</ion-label>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="3">
+        <ion-card>
+          <ion-thumbnail>
+            <img [src]="'/assets/imgs/tauba.jpg'" />
+          </ion-thumbnail>
+          <ion-label class="ion-text-wrap ion-text-center">Namaz_e-Janazah</ion-label>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid> -->
+
+  <ion-grid>
+    <ion-row>
+      <ion-col (click)='getSahadahText()' [routerLink]="['/shahadat']">Shahadat</ion-col>
+      <ion-col (click)='getSahadahText()' [routerLink]="['/shahadat']">Namaz_e-Janazah</ion-col>
+      <ion-col (click)='getSahadahText()' [routerLink]="['/shahadat']">Dua for Deceased</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col (click)='getHadithList()' [routerLink]="['/shahadat']">Hadith</ion-col>
+      <ion-col (click)='getWashingSteps()' [routerLink]="['/shahadat']">How to wash Dead-body</ion-col>
+      <ion-col (click)='getTasbeehCounter()' [routerLink]="['/shahadat']">Tasbeeh</ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col (click)='getQabarEAzaabText()' [routerLink]="['/shahadat']">Qabar Azaab</ion-col>
+      <ion-col (click)='getHoorData()' [routerLink]="['/shahadat']">Hoor</ion-col>
+      <ion-col (click)='getData()' [routerLink]="['/shahadat']">Quran(Surah)</ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+</ion-content>
